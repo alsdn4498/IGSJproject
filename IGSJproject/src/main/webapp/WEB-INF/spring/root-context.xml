@@ -19,7 +19,7 @@
       <property name="username" value="audenkim" />
       <property name="password" value="1q0p2w9o~~!!" />
    </bean>
-	
+
 	<!-- mybatis 세션 팩토리 -->
 	<bean id="sqlSessionFactory"
 		 class="org.mybatis.spring.SqlSessionFactoryBean">

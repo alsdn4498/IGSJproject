@@ -25,22 +25,6 @@ public class MemberDTO {
 	private String userBirth;
 	
 	
-	public String getUserId() {
-		return userId;
-	}
-
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
-
-	public String getUserPwd() {
-		return userPwd;
-	}
-
-	public void setUserPwd(String userPwd) {
-		this.userPwd = userPwd;
-	}
-
 	public String getUserPhoneNumber() {
 		return userPhoneNumber;
 	}
@@ -95,6 +79,5 @@ public class MemberDTO {
 				+ userPhoneNumber + ", userEmail=" + userEmail + ", userJoinDate=" + userJoinDate + ", userVerify="
 				+ userVerify + ", userBirth=" + userBirth + "]";
 	}
-
 
 }
