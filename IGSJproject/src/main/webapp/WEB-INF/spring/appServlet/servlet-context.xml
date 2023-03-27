@@ -25,12 +25,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.project"/>
-	<context:component-scan base-package="com.project.board"/>
-	<context:component-scan base-package="com.project.inquire"/>
-	<context:component-scan base-package="com.project.product"/>
-	<context:component-scan base-package="com.project.utils"/>
-	
+	<context:component-scan base-package="ezen.project.IGSJ"/>
 	<!-- 파일 업로드 -->
 	<!-- 파일 업로드 경로 -->
 	<beans:bean class="java.lang.String" id="uploadPath"> <!-- uploadPath라는 id, class=String은 생성자의 매개변수가 String이라는 의미 -->
