@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+      PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ezen.project.IGSJ.Product.ProductMapper">
+
+<insert id="register" parameterType="ezen.project.IGSJ.Product.dto.ProductDTO" >
+	insert into ProductDTO(pno,cno, product_name, product_price, product_stock, product_description)
+	values ( #{pno}, #{cno}, #{product_name} ,#{product_price}, #{product_stock}, #{product_description})
+</insert>
+
+</mapper>
