@@ -26,6 +26,9 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="ezen.project.IGSJ"/>
+	<context:component-scan base-package="ezen.project.IGSJ.member"/>
+	<context:component-scan base-package="ezen.project.IGSJ.address"/>
+	
 	<!-- 파일 업로드 -->
 	<!-- 파일 업로드 경로 -->
 	<beans:bean class="java.lang.String" id="uploadPath"> <!-- uploadPath라는 id, class=String은 생성자의 매개변수가 String이라는 의미 -->
